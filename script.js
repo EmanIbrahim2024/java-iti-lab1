@@ -40,6 +40,9 @@ document.write("<p> <b><u> Age </u></b>: "+userAge+" years-old </p> ");
 
 //////////////ex4////////////////
 
+function printWelcome(){
 for (var i=1;i<7;i++){
-    document.write(" <h"+i+"> Welcome to my site </h"+i+">  ")
+    document.write(" <h"+i+"> Welcome to my site "+i+" </h"+i+">  ")
 }
+}
+printWelcome();
